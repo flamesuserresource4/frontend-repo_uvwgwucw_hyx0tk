@@ -1,0 +1,39 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 230 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.10.200:3000/
+7:35:31 PM [vite] warning: The character "}" is not valid inside a JSX element
+25 |                  <div className="text-pink-400 font-semibold">❤ {b.likes || 0}</div>
+26 |                </div>
+27 |                <div className="mt-4 text-sm text-gray-300">${'{'}b.total_price?.toFixed?.(2) || '—'}</div>
+   |                                                                                                      ^
+28 |              </a>
+29 |            ))}
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/TopLoved.jsx
+7:35:31 PM [vite] warning: The character "}" is not valid inside a JSX element
+29 |                </div>
+30 |                <p className="text-sm text-gray-400 mt-2 line-clamp-2">{b.description}</p>
+31 |                <div className="mt-4 text-sm text-gray-300">${'{'}b.total_price?.toFixed?.(2) || '—'}</div>
+   |                                                                                                      ^
+32 |              </a>
+33 |            ))}
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Showcase.jsx
+7:35:31 PM [vite] warning: The character "}" is not valid inside a JSX element
+98 |              <div className="mt-1 flex items-center justify-between">
+99 |                <span className="text-gray-400 text-sm">Subtotal</span>
+100|                <span className="font-semibold">${'{'}total.toFixed(2)}</span>
+   |                                                                      ^
+101|              </div>
+102|              {issues.length>0 && (
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Configurator.jsx
